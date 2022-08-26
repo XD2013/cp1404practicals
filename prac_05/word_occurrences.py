@@ -11,7 +11,6 @@ words = text.split()
 for word in words:
     frequency = counted_word.get(word, 0)
     counted_word[word] = frequency + 1
-print(counted_word)
 words = list(counted_word.keys())
 words.sort()
 # length = max((len(word) for word in words))
