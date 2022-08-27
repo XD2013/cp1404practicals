@@ -13,3 +13,14 @@ class ProgrammingLanguage:
 
     def is_dynamic(self):
         return self.typing == "Dynamic"
+
+def test_list():
+    """Run simple tests/demos on ProgrammingLanguage class."""
+    ruby = ProgrammingLanguage("Ruby", "Dynamic", True, 1995)
+    python = ProgrammingLanguage("Python", "Dynamic", True, 1991)
+    visual_basic = ProgrammingLanguage("Visual Basic", "Static", False, 1991)
+    print(python)
+
+test_list()
+
+
