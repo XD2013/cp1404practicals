@@ -52,7 +52,7 @@ def run_tests():
     assert test_car.fuel == 100
 
 
-# run_tests()
+run_tests()
 
 # 3. Uncomment the following line and run the doctests
 # (PyCharm may see your >>> doctest comments and run doctests anyway.)
